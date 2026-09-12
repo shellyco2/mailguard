@@ -1,6 +1,6 @@
 # Final test results
 
-Validated 2026-09-12 against the clean submission copy.
+Last validated: 2026-09-12.
 
 | Suite | Result |
 |---|---:|
@@ -38,6 +38,6 @@ These eight examples exercise the unchanged scoring rules without external reput
 - Google's synthetic phishing URL: reputation match, 72/100, High Risk (70 reputation points + 2 HTTP points).
 - `https://example.com/`: no reputation match, 0/100, Low Risk.
 - No URLs: no external lookup, 0/100, Low Risk.
-- The requested credential-phishing message: 67/100, Suspicious, Medium confidence from heuristics; actual Gmail headers/reputation can add evidence.
+- The credential-phishing demo: 67/100, Suspicious, Medium confidence from heuristics; actual Gmail headers/reputation can add evidence.
 
-The packaging pass did not redeploy or change the running backend. Automated CardService mocks verify structure, strings, escaping, and RTL isolation; they do not substitute for visual verification in Gmail. Follow the README demo for the final presentation check.
+Automated CardService mocks verify structure, strings, escaping, and RTL isolation; they do not substitute for visual verification in Gmail. Use the README demo to verify the layout in Gmail.
