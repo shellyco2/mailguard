@@ -1,0 +1,11 @@
+{
+  "sender": "Account Team <alerts@example.com>",
+  "reply_to": "help@other.example",
+  "subject": "Urgent: verify your account",
+  "body": "Please enter your password immediately.",
+  "urls": [
+    "http://192.0.2.1/login"
+  ],
+  "authentication_results": "mx.google.com; spf=fail; dkim=pass; dmarc=fail",
+  "attachments": []
+}

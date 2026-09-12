@@ -1,0 +1,36 @@
+# Dependencies and generated output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+coverage/
+dist/
+
+# Secrets, OAuth sessions, and local deployment links
+.env
+.env.*
+.clasprc*
+.clasp.json
+.vercel/
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+cloudrun-env.yaml
+
+# Local helpers, scratch files, and machine configuration
+work/
+outputs/
+clasp.ps1
+copy-api-key.ps1
+.vscode/
+.idea/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

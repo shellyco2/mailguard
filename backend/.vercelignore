@@ -1,0 +1,11 @@
+.venv
+__pycache__
+.pytest_cache
+tests
+*.pyc
+.env*
+cloudrun-env.yaml
+example-email.json
+example-result.json
+README.md
+requirements-dev.txt

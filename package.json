@@ -1,0 +1,14 @@
+{
+  "name": "mailguard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gmail email-risk analysis with explainable heuristics and Google Safe Browsing",
+  "scripts": {
+    "test": "node --test tests/apps-script.test.cjs",
+    "clasp": "clasp"
+  },
+  "devDependencies": {
+    "@google/clasp": "3.4.1"
+  },
+  "packageManager": "pnpm@11.19.0"
+}
