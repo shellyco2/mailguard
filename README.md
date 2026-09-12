@@ -97,3 +97,9 @@ The last recorded suite passed **77 tests**: 58 backend and 19 Apps Script. Run 
 MailGuard does not scan attachments or open linked websites. Language rules cover a small English phrase list, and authentication headers are not independently verified. Safe Browsing may miss new threats or flag legitimate links, and only the first 50 distinct URLs are checked.
 
 This is a prototype, not a production email-security system. Scores help explain warning signs, but do not establish safety or replace checking an unexpected request through a trusted channel. Safe Browsing is used under its non-commercial offering.
+
+## Part 2 - Product Review
+
+The second part of the assignment includes the product review and gap analysis, test plan, and BI & monitoring definition.
+
+[View Part 2 - Product Review](docs/Part_2_Product_Review.pdf)
